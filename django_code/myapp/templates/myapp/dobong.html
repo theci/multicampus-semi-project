@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords"
+		content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="{% static 'img/icons/icon-48x48.png' %}" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>Beaconomic Project</title>
+
+	<link href="{% static 'css/app.css'  %}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+	<main class="content">
+		<div class="container-fluid p-0">
+
+			<h1 class="h3 mb-3"><strong></strong> Beaconomic - 도봉구 </h1>
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gangnam/'">강남구</button>
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gangdong/'">강동구</button>
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gangbuk/'">강북구</button>
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gangseo/'">강서구</button>
+
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gwanak/'">관악구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/gwangjin/'">광진구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/guro/'">구로구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/geumcheon/'">금천구</button>
+
+
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/nowon/'">노원구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/dobong/'">도봉구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/dongdaemun/'">동대문구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/dongjak/'">동작구</button>
+
+
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/mapo/'">마포구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/seodaemun/'">서대문구</button>
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/seocho/'">서초구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/seongdong/'">성동구</button>
+
+
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/seongbuk/'">성북구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/songpa/'">송파구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/yangcheon/'">양천구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/yeongdeungpo/'">영등포구</button>
+
+
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/yongsan/'">용산구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/eunpyeong/'">은평구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/jongno/'">종로구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/junggu/'">중구</button>
+
+			<button type="button" class="btn btn-outline-primary"
+				onclick="location.href='http://127.0.0.1:8000/jungnang/'">중랑구</button>
+
+			<div class="row">
+				<div class="col-xl-6 col-xxl-5 d-flex">
+					<div class="w-100">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="card">
+									<div class="card-body">
+										<div class="row">
+
+											<div class="col mt-0">
+												<h5 class="card-title">CCTV 개수</h5>
+											</div>
+
+
+										</div>
+										<h1 class="mt-1 mb-3">{{data_2021.cnt_cctv}}</h1>
+										<div class="mb-0">
+											<span class="text-muted">전년도 대비</span>
+											<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> +593개
+											</span>
+
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<div class="row">
+											<div class="col mt-0">
+												<h5 class="card-title">주변 경찰서 숫자</h5>
+											</div>
+
+
+										</div>
+										<h1 class="mt-1 mb-3">{{data_2021.cnt_police}}</h1>
+										<div class="mb-0">
+											<span class="text-muted">전년도 대비</span>
+											<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> +0개
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="card">
+									<div class="card-body">
+										<div class="row">
+											<div class="col mt-0">
+												<h5 class="card-title">가로등 숫자</h5>
+											</div>
+
+
+										</div>
+										<h1 class="mt-1 mb-3">{{data_2021.cnt_light}}</h1>
+										<div class="mb-0">
+											<span class="text-muted">전년도 대비</span>
+											<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> +29개
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<div class="row">
+											<div class="col mt-0">
+												<h5 class="card-title">여성가구</h5>
+											</div>
+
+
+										</div>
+										<h1 class="mt-1 mb-3">{{data_2021.female_population}}</h1>
+										<div class="mb-0">
+											<span class="text-muted">전년도 대비</span>
+											<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3112명
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6 col-xxl-7">
+					<div class="card flex-fill w-100">
+						<div class="card-header">
+
+							<h5 class="card-title mb-0">112 신고건수 발생량 그래프</h5>
+						</div>
+						<div class="card-body py-3">
+							<div class="chart chart-sm">
+								<canvas id="chartjs-dashboard-line"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
+					<div class="card flex-fill w-100">
+						<div class="card-header">
+
+							<h5 class="card-title mb-0">5대 범죄 발생 비율</h5>
+						</div>
+						<div class="card-body d-flex">
+							<div class="align-self-center w-100">
+								<div class="py-3">
+									<div class="chart chart-xs">
+										<canvas id="chartjs-dashboard-pie"></canvas>
+									</div>
+								</div>
+
+								<table class="table mb-0">
+									<tbody>
+										<tr>
+											<td>살인</td>
+											<td class="text-end">2</td>
+										</tr>
+										<tr>
+											<td>강도</td>
+											<td class="text-end">2</td>
+										</tr>
+										<tr>
+											<td>강간,강제추행</td>
+											<td class="text-end">72</td>
+										</tr>
+										<tr>
+											<td>절도</td>
+											<td class="text-end">772</td>
+										</tr>
+										<tr>
+											<td>폭력</td>
+											<td class="text-end">1012</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xxl-6 d-flex order-3 order-xxl-2">
+					<div class="card flex-fill w-100">
+						<div class="card-header">
+							<tr>
+
+								<td><button type="button" class="btn btn-outline-primary"
+										onclick="location.href='https://map.naver.com/v5/search/%EB%8F%84%EB%B4%89%EA%B5%AC%20%ED%8C%8C%EC%B6%9C%EC%86%8C?c=14138878.1430696,4531948.1502041,11.9,0,0,0,dhc&isCorrectAnswer=true'">경찰서
+										상세 위치</button></td>
+
+							</tr>
+							<tr>
+								<td><button type="button" class="btn btn-outline-primary"
+										onclick="location.href='https://www.sexoffender.go.kr/indexN.nsc'">성범죄자
+										알림e</button></td>
+
+							</tr>
+							<tr>
+								<td><button type="button" class="btn btn-outline-primary"
+										onclick="location.href='https://map.naver.com/v5/?c=14138807.0048458,4533006.2088280,12.33,0,0,0,dhc&isCorrectAnswer=true'">실시간
+										cctv 위치</button></td>
+							</tr>
+
+							<tr>
+								<td><button type="button" class="btn btn-outline-primary"
+										onclick="location.href='https://www.hugmom.co.kr/hugmom/main/main.html?ACE_REF=adwords_g&ACE_KW=%EC%A0%95%EC%8B%A0%20%EC%83%81%EB%8B%B4%20%EC%84%BC%ED%84%B0&gclid=CjwKCAjwh4ObBhAzEiwAHzZYU85oelE6hGhzoCh6xJL6QWCcPvnLQleeSsbh-YZfF1w-Dqi3T0Gf4hoCr_YQAvD_BwE'">심리상담센터</button>
+								</td>
+							</tr>
+
+							<tr>
+								<td><button type="button" class="btn btn-outline-primary"
+										onclick="location.href='https://www.mois.go.kr/frt/a01/frtMain.do'">행정안전부
+										홈페이지</button></td>
+							</tr>
+
+							<body>
+
+							</body>
+						</div>
+						<div class="card-body px-4">
+							<td>{% include 'myapp/도봉구_ map + marker.html' %}</td>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-8 col-xxl-9 d-flex">
+					<div class="card flex-fill">
+						<div class="card-header">
+
+							<h5 class="card-title mb-0"></h5>
+						</div>
+						<table class="table table-hover my-0">
+
+							<tbody>
+								<tr height="200">
+									<td style="vertical-align: middle; text-align: center; font-size: 200%;">
+										<strong>112
+											신고 건수 예측량:62942</strong>
+									</td>
+
+
+								</tr>
+								<tr height="200">
+									<td style="vertical-align: middle; text-align: center; font-size: 200%;">
+										<strong>종합
+											치안 안전 지수:79.9</strong>
+									</td>
+
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 col-xxl-3 d-flex">
+					<div class="card flex-fill w-100">
+						<div class="card-header">
+
+							<h5 class="card-title mb-0">안전종합지수 등급</h5>
+							<table class="table table-hover my-0">
+								<thead>
+									<tr>
+										<td>
+
+										</td>
+
+									</tr>
+								</thead>
+
+							</table>
+						</div>
+						<div class="card-body d-flex w-100">
+							<style>
+								.btn-group .button {
+									background-color: #3537b2;
+									/* Green */
+									border: 1px solid rgb(230, 230, 240);
+									color: white;
+									padding: 32px 52px;
+									text-align: center;
+									text-decoration: none;
+									font-size: 16px;
+									cursor: pointer;
+									width: 250px;
+									display: block;
+								}
+
+								.btn-group .button:not(:last-child) {
+									border-bottom: none;
+									/* Prevent double borders */
+								}
+
+								.btn-group .button:hover {
+									background-color: #3e8e41;
+								}
+							</style>
+							<div class="btn-group">
+								<button class="button">A등급</button>
+								<button class="button">B등급</button>
+								<button class="button">C등급</button>
+								<button class="button">D등급</button>
+							</div>
+
+							<style>
+								.btn-group1 .button {
+									background-color: #f7f7fa;
+									/* Green */
+									border: 1px solid rgb(21, 21, 23);
+									color: rgb(7, 7, 7);
+									padding: 32px 52px;
+									text-align: center;
+									text-decoration: none;
+									font-size: 16px;
+									cursor: pointer;
+									width: 250px;
+									display: block;
+								}
+
+								.btn-group1 .button:not(:last-child) {
+									border-bottom: none;
+									/* Prevent double borders */
+								}
+
+								.btn-group1 .button:hover {
+									background-color: #3e8e41;
+								}
+							</style>
+							<div class="btn-group1">
+								<button class="button">&#10005;</button>
+								<button class="button"> &#10005;</button>
+								<button class="button"> &#10005;</button>
+								<button class="button"> &#10003;</button>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row text-muted">
+				<div class="col-6 text-start">
+					<p class="mb-0">
+						<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a>
+						&copy;
+					</p>
+				</div>
+				<div class="col-6 text-end">
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	</div>
+
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
+			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: "line",
+				data: {
+					labels: ["2015", "2016", "2017", "2018", "2019", "2020", "2021"],
+					datasets: [{
+						label: "발생량",
+						fill: true,
+						backgroundColor: gradient,
+						borderColor: window.theme.primary,
+						data: [
+							58027,
+							56850,
+							53738,
+							53912,
+							55279,
+							52755,
+							53731
+						]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 5000
+							},
+							display: true,
+							borderDash: [3, 3],
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: "pie",
+				data: {
+					labels: ["살인", "강도", "강간,강제추행", "절도", "폭력"],
+					datasets: [{
+						data: [(2 * 100 / 1860).toFixed(1), (2 * 100 / 1860).toFixed(1), (72 * 100 / 1860).toFixed(1), (772 * 100 / 1860).toFixed(1), (1012 * 100 / 1860).toFixed(1)],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.primary,
+							window.theme.primary,
+							window.theme.warning,
+							window.theme.danger,
+						],
+						borderWidth: 7
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 70
+				}
+			});
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>
