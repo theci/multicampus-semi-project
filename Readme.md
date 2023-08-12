@@ -1,9 +1,9 @@
-# :video_game: Share My Hobby
-동네기반 취미공유 서비스 - **Share My Hobby**
+# :video_game: Six-Sigma
+표정기반 맛집추천 서비스 - **The Born**
 
 <p align="center">
   <a href="https://www.freepik.com/vectors/person">
-    <img src="https://user-images.githubusercontent.com/21170717/121205986-0f84e180-c8b3-11eb-9573-3e06063fe6cf.jpg"  width="600" height="400">
+    <img src="https://user-images.githubusercontent.com/110512212/260213348-0039a422-b096-4a1a-a7f0-87fb7caa0ed6.png"  width="600" height="400">
   </a>
 </p>
 
