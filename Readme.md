@@ -61,12 +61,12 @@
 
 
 ## :robot: 프로젝트 아키텍처
-![system_architecture](https://user-images.githubusercontent.com/21170717/121297109-c7a2a080-c92c-11eb-80e2-233970ec701b.png)
+![system_architecture](https://user-images.githubusercontent.com/110512212/260213296-e3070c26-9235-4698-ae95-b6693a0f094b.png)
 
-## :heavy_exclamation_mark: 이슈 정리
-- Wiki의 [이슈 해결](https://github.com/f-lab-edu/share-my-hobby/wiki/5.-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0)을 참고해 주세요.
+
+![system_architecture](https://user-images.githubusercontent.com/110512212/260213292-885c02a5-98d8-4c85-baa5-26b9cbe5cd1f.png)
+
 
 ## :floppy_disk: ER Diagram
-- 지속적으로 업데이트 중입니다.
 
-![erd](https://user-images.githubusercontent.com/21170717/121324479-bd43cf00-c94b-11eb-9990-b19bd42c6c45.png)
+![erd](https://user-images.githubusercontent.com/110512212/260212843-7470a001-dc2d-4841-a69d-9794796181a2.png)
